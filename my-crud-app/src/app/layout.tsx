@@ -25,6 +25,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content="Basic CRUD" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Basic CRUD</title>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
